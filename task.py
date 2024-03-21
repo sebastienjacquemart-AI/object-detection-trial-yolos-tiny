@@ -30,3 +30,5 @@ for score, label, box in zip(results["scores"], results["labels"], results["boxe
         f"{round(score.item(), 3)} at location {box}"
     )
     print("detection done")
+
+# contribution
